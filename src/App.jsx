@@ -1,9 +1,14 @@
 import "./App.css";
+import { Container, Footer, Header, AddPostForm } from "./components/index";
 
 function App() {
   return (
     <>
-      <h1 className=" bg-orange-600">Hello World</h1>
+      <Header />
+      <Container>
+        <AddPostForm />
+      </Container>
+      <Footer />
     </>
   );
 }
