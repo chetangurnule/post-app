@@ -1,12 +1,13 @@
 import "./App.css";
-import { Container, Footer, Header, AddPostForm } from "./components/index";
+import { Container, Footer, Header, PostCard } from "./components/index";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <Header />
       <Container>
-        <AddPostForm />
+        <Home />
       </Container>
       <Footer />
     </>

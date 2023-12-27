@@ -9,6 +9,7 @@ import SignupForm from "./SignupForm.jsx";
 import AddPostForm from "./AddPostForm.jsx";
 import Select from "./FormComponents/Select.jsx";
 import RTE from "./FormComponents/RTE.jsx";
+import PostCard from "./PostCard.jsx";
 
 export {
   Footer,
@@ -22,4 +23,5 @@ export {
   AddPostForm,
   Select,
   RTE,
+  PostCard,
 };

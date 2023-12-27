@@ -3,10 +3,10 @@ import React, { useId } from "react";
 function Select({ options, label, className, ...props }, ref) {
   const id = useId();
   return (
-    <div className="w-full">
+    <div className="w-full text-left font-bold">
       {label && (
         <label htmlFor={id} className="">
-          {label}
+          {`${label}:`}
         </label>
       )}
       <select
